@@ -1,0 +1,97 @@
+/* estilo de la calculadora de Presion */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;  /* Hace que los hijos de body se apilen verticalmente */
+    min-height: 100vh;  /* Asegura que el cuerpo tenga al menos la altura de la ventana de visualización */
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 20px 0; /* Aumentado el padding para espacio arriba y abajo del menú */
+    margin-top: 20px; /* Agregado margen superior para espacio arriba del menú */
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.h2-1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightslategray;
+}
+
+p {
+    margin-left: 10px;
+    color: rgb(36, 35, 35);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.formulario {
+    background: lightcoral;
+    width: 90%;
+    max-width: 460px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.formulario input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formulario input[type="number"] {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.formulario input[type="submit"] {
+    width: 80px;
+    margin: 0 auto;
+    background-color: floralwhite;
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.formulario input[type="submit"]:hover {
+    background: grey;
+    transition: all .4s;
+}
+
+.h2-2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightcyan;
+}
+
+footer {
+    margin-top: auto;  /* Empuja el pie de página hacia abajo */
+    padding: 25px;
+    background: grey;
+    text-align: center;
+    color: white;
+}

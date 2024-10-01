@@ -1,0 +1,110 @@
+/* estilo de la calculadora de glucosa */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;  /* Hace que los hijos de body se apilen verticalmente */
+    min-height: 100vh;  /* Asegura que el cuerpo tenga al menos la altura de la ventana de visualización */
+    font-family: sans-serif;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 20px 0; /* Aumentado el padding para espacio arriba y abajo del menú */
+    margin-top: 20px; /* Agregado margen superior para espacio arriba del menú */
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightslategray;
+    margin: 20px auto 0;
+    max-width: 400px;
+}
+
+p {
+    margin-top: 10px;
+    color: rgb(36, 35, 35);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.formulario {
+    background: lightseagreen;
+    width: 90%;
+    max-width: 470px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.formulario input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formulario input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 100px;
+    background-color: white;
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+
+.formulario input[type="submit"]:hover {
+    background: grey;
+    transition: all .4s;
+}
+
+.select1 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.select {
+    width: 100%;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.h2t {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+footer {
+    margin-top: auto;  /* Empuja el pie de página hacia abajo */
+    padding: 25px;
+    background: grey;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #252121;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(../img/pawel-czerwinski-z7prq6BtPE4-unsplash.jpg);
+    display: flex;
+    flex-direction: row-reverse;
+    height: 210px;
+}
+
+header h1 {
+    margin-top: 50px;
+    margin-right: 300px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+}
+
+header img {
+    margin-top: 20px;
+    width: 250px;
+    height: 180px;
+    margin-left: 20px;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+.blanco {
+    width: 100%;
+    height: 10px;
+    background: black;
+}
+
+.menu-contenedor {
+    background: url(../img/pawel-czerwinski-z7prq6BtPE4-unsplash.jpg)
+}
+
+.menu {
+    margin: 20px 0 0 31%;
+    display: flex;
+    list-style: none;
+    flex-direction: row; 
+    margin-bottom: 20px;
+}
+
+.menu li a {
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-family: Verdana;
+}
+
+.menu li a:hover{
+    background-color: #2980b9;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+.conoce {
+    width: 25%;
+    height: 35px;
+    background: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 20px 0 20px 40px;
+    border-color: transparent transparent transparent #f00;
+    border-radius: 5px;
+}
+
+.conoce h2 {
+    margin-left: 20px;
+    margin-top: -12px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.debajo {
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to bottom, black, transparent);
+}
+
+.informacion {
+    border-color: red;
+    margin-left: 35%;
+    line-height: 25px;
+    width: 50%;
+    background: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.informacion img {
+    height: 350px;
+    margin-left: 7%;
+}
+
+footer {
+    margin-top: 1%;
+    padding: 25px;
+    background: url(../img/chutter.jpg);
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bloque-informacion {
+    width: 100%;
+    display: flex;
+    background-image: url(../img/chutter.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.texto {
+    width: 40%;
+    text-align: justify;
+    background: white;
+    height: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.imagen_escala {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen_escala .texto{
+    width: 60%;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+}
+
+.imagen_escala img {
+    width: 15%;
+}
+
+
+
+
+
